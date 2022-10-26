@@ -1,0 +1,332 @@
+*,
+*::before,
+*::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+border: 0;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+list-style: none;
+text-decoration: none;
+}
+
+a,
+a:link
+a:visited{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+ul,
+li{
+list-style: none;
+margin:0;
+padding: 0;
+}
+section,
+span,
+p{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+
+}
+.header{
+    background-image:url(https://besthqwallpapers.com/Uploads/24-4-2020/130290/thumb2-coffee-beans-background-with-coffee-beans-coffee-concepts-coffee-bean-texture-coffee-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px  ;
+padding-bottom: 6px;
+}
+.header-logo{
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-bottom:5px solid rgb(223, 171, 120);
+    color:rgb(223, 171, 120);
+    border-radius: 35px;
+}
+ul{
+    display: flex;
+}
+li{
+    margin-left: 100px; 
+}
+.header-menu a{
+    font-weight:bold;
+    font-size: 24px;
+    color:rgb(233, 179, 145);
+
+}
+.header-menu a:hover{
+    border-radius: 5px;
+    padding: 5px;
+color: brown;
+    background-color:rgb(223, 171, 120);
+}
+.wel a{
+    font-weight:bolder;
+    font-size: 26px;
+   
+}
+.wel{
+    font-size: 100px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-family: 'Pacifico', cursive;
+    color:rgb(223, 171, 120);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.btn-coffe{
+    color:rgb(105, 54, 2);
+    display: block;
+   background-color:rgb(223, 171, 120);
+    padding: 10px 15px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.About{
+    margin-bottom: 150px;
+   margin-left: 30px;
+
+    
+}
+.About-title{
+    margin: 60px 0;
+}
+.About-title h1{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color:rgb(145, 93, 41);
+    font-size: 40px;
+    font-weight: 600;
+}
+.About-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.About-img{
+    width: 37%;
+}
+.About-img img{
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+}
+.About-text{
+   width: 40%; 
+   margin-bottom: 38px;
+}
+h3{
+    
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(59, 31, 4);
+
+}
+p{
+    font-size: 20px;
+}
+.foryou{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foryou-item{
+    width: 25%;
+    height: 300px;
+  
+   
+}
+.foryou-item img{
+    width: 100%;
+    height: 100%;
+  
+   
+}
+.footer{height: 500px;
+
+    display: flex;
+    background-color:		rgb(18, 9, 4);
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    
+   }
+   .one h2{  
+     margin-bottom: 30px;
+    font-size: 21px;
+    color: white;
+   }
+   .one a h3{ 
+  text-align: left;
+    font-size: small;
+    color: white;
+   }
+   .one img{
+    width: 100px;
+   }
+  .one a i{
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+    color: #000;
+  }
+.tic img{
+width: 50px;
+height: 45px;
+display: none;
+}
+  @media only screen and (max-width:660px) { 
+    .footer{
+    flex-wrap: wrap;
+      height: 100%;
+     padding-top: 50px;
+    padding-left: 10px;
+    }
+}
+
+    @media only screen and (max-width: 660px){
+    .one {
+        width: 50%;
+    }}
+    @media only screen and (max-width:1370px){
+        .wel {
+       font-size: 85px; }
+
+    }
+    @media only screen and (max-width:1100px){
+        .wel {
+       font-size: 65px; }
+.header-menu a{
+    font-size: 20px;
+}
+li{
+    margin-left: 50px; 
+}
+    }
+    @media only screen and (max-width:790px){
+        .wel {
+       font-size: 45px; }
+       .wel a{
+        font-size: 20px;
+       }
+.header-menu a{
+    font-size: 18px;
+}
+li{
+    margin-left: 305x; 
+}
+    }
+    @media only screen and (max-width:700px){
+       
+.header-menu a{
+    display: none;
+}
+.tic img{
+    display: block;
+position: absolute;
+right: 25px;
+top: 38px;
+}
+
+    }
+    @media only screen and (max-width:590px){
+        .wel {
+            font-size: 35px; }
+  .wel a{
+        font-size: 10px;
+    }  
+    .tic img{
+        width: 35px;
+        height: 35px;
+        top: 40px;
+    }
+    .header-logo {
+        font-size: 12px;}
+.foryou-item img {
+
+    height: 75%;
+} .foryou-item {
+    margin-bottom: -75px;
+}
+    }
+   
+ 
+
+
+    @media only screen and (max-width:1076px){
+
+h3{
+    font-size: 32px;
+}
+p {
+    font-size: 17px;
+}
+    }
+    @media only screen and (max-width:973px){
+
+        h3{
+            font-size: 28px;
+        }
+    }
+    @media only screen and (max-width:913px){
+        .About-content {
+            display: block;
+            width: 100%;
+            text-align: -webkit-center;
+
+        }
+        .foryou-item {
+            width: 50%;
+        }
+        .About-img {
+                width: 400px;
+        }
+        .About-title h1 {
+            display: none;
+        }
+        h3{
+            margin-top: 30px;
+            font-size: 35px;
+        }
+        .About {
+            margin-bottom: 35px;
+        }
+        p{
+           font-size: 15px;
+        }
+        .About-text {
+            width: 90%;
+            margin-bottom: 38px;
+        }
+    }   @media only screen and (max-width:400px){
+        .wel {
+            font-size: 25px; }      
+p{
+    font-size: 13px;
+}
+    }
+    @media only screen and (max-width:485px){
+        .About-img {
+            width: 300px;
+    }
+    .one h2{
+        font-size: 17px;
+    }
+   .one a h3{
+        font-size: 13px;
+    }
+    }
